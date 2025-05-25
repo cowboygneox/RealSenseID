@@ -58,4 +58,4 @@ RUN set -eux; \
 ## HOW TO BUILD
 # docker build --platform=linux/amd64 -t rsid-builder:latest .
 # docker run --rm -it -v.:/rsid-builder rsid-builder bash -c "cd wrappers/android && ./gradlew clean bundleStandardReleaseAar"
-# Find your output in `wrappers/android/build/outputs/aar/`
+# Find your output in `wrappers/android/realsenseid/build/outputs/aar/`
